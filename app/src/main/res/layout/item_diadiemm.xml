@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#7E989FD1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_diadiem"
+        android:layout_width="99dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ic_camera"
+        android:background="#77000000"/>
+    <LinearLayout
+        android:layout_toEndOf="@+id/img_diadiem"
+        android:layout_toRightOf="@+id/img_diadiem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp"
+        >
+    <TextView
+        android:id="@+id/txt_nameplace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ha long"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+        <TextView
+            android:id="@+id/txt_addressplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TP.Ha long"
+            android:textColor="#9CFBC02D"
+            android:textSize="18dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:text="Giá:"
+                android:textSize="13dp"
+                android:textColor="#E1F5FE"
+                />
+            <TextView
+                android:id="@+id/txt_costplace"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="10dp"
+                android:textStyle="italic"
+                android:textColor="#DDFFFFFF"
+                />
+            <Button
+                android:id="@+id/btn_xemchitiet"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Chi tiết"
+                android:textColor="#FFEE58"
+                android:textSize="10dp"
+                android:textStyle="normal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

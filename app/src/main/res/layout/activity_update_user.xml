@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_update_user"
+    android:orientation="vertical">
+ <ScrollView
+     android:background="#70372F2F"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:padding="8dp"
+     >
+     <LinearLayout
+
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E3331"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+            <TextView
+                android:id="@+id/td"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mời Bạn nhập"
+                android:textSize="25dp"
+                android:textColor="@color/white"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="#CFD4EF"
+            android:padding="8dp"
+            android:layout_below="@+id/xx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="FullName: "
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/edt_update_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter full name"
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="D/M/Y: "
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/edt_update_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter D/M/Y"
+                    android:inputType="datetime"
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address: "
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/edt_update_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Address"
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Phone: "
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/edt_update_Phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Phone Number"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="CMT: "
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/edt_update_CMT"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Number CMT"
+                    android:inputType="number"
+
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Bank: "
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/edt_update_STK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Bank account number"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Email: "
+                    android:textColor="@color/black"/>
+                <EditText
+                    android:id="@+id/edt_update_Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Address Email"
+                    android:inputType="textEmailAddress"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:paddingTop="40dp">
+             <Button
+                 android:id="@+id/btn_back_edit_profile"
+                 android:layout_width="80dp"
+                 android:layout_height="50dp"
+                 android:text="Back"
+
+                 />
+             <Button
+
+                 android:id="@+id/btn_update_profile"
+                 android:layout_width="100dp"
+                 android:layout_height="50dp"
+                 android:text="Update"
+                 android:layout_marginLeft="210dp"
+                 />
+         </LinearLayout>
+
+     </LinearLayout>
+ </ScrollView>
+
+</RelativeLayout>

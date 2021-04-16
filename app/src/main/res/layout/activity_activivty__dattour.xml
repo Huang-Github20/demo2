@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#7A748C"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activivty_Dattour">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <LinearLayout
+        android:background="#A38B43"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/btn_image_mess"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_baseline_message_24"
+            android:background="#AFB7E3"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Tour"
+            android:textSize="25dp"
+            android:gravity="center"/>
+    </LinearLayout>
+        <LinearLayout
+            android:background="#3A938A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageButton
+                android:id="@+id/btn_image_call"
+                android:background="#AFB7E3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/ic_baseline_call_24"
+
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call With Tour"
+                android:textSize="25dp"
+                android:gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#081350"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:id="@+id/txt_hienthi_dattour"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Mesesag"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+                <TextView
+                    android:id="@+id/txt_thongbao_sdt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0356122545"
+                    android:textSize="30dp"
+                    android:textColor="#E2EBF1F0"
+
+                    />
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_back_dattour"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Back"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.Fragment_Search"
+    android:orientation="vertical"
+    >
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/searchview"
+        android:layout_margin="5dp"
+        android:queryHint="Nhập nội dung bạn cần tìm"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rcv_Search"/>
+<!--    <EditText-->
+<!--        android:id="@+id/edt_search"-->
+<!--        android:layout_width="398dp"-->
+<!--        android:layout_height="49dp"-->
+<!--        android:layout_marginLeft="15dp"-->
+<!--        android:layout_marginTop="15dp"-->
+<!--        android:layout_marginRight="15dp"-->
+<!--        android:paddingLeft="20dp"-->
+<!--        android:background="@drawable/search_edt"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_search_24"-->
+<!--        android:ems="10"-->
+<!--        android:hint="  Search ..."-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:text=""-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+
+<!--        android:id="@+id/rcv_fragmentsearch"-->
+<!--        android:padding="5dp"-->
+<!--        android:layout_below="@+id/edt_search"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        />-->
+
+</LinearLayout>

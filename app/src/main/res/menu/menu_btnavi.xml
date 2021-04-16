@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/function_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_white_24"
+        />
+    <item android:id="@+id/function_search"
+        android:title="Search"
+        android:icon="@drawable/baseline_search_white_24"
+        />
+    <item android:id="@+id/function_profile"
+        android:title="Profile"
+        android:icon="@drawable/baseline_account_circle_white_24"
+        />
+</menu>
